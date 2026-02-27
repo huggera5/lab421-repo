@@ -1,3 +1,7 @@
-from utils import get_fact
+from utils import get_fact, fib
 
-print(get_fact(4))
+x = input()
+
+print("Factorial:", get_fact(x))
+
+print("Fib:", fib(x))
